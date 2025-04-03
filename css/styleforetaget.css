@@ -1,13 +1,31 @@
+
 body {
-    background-color:blanchedalmond
+    background-color: darkslategrey;
+    padding:0;
+    margin:0;
 }
 
-#tillbaka {
-    display:flex;
-    width:100px;
-    height:30px;
+nav ul li a {    
+    display: flex;
+    padding: 50px 10px;
+    width: 100px;
+    background-color:darkgray;
+    border-color: black;
+    text-decoration: none;
+    border-radius: 0px 0px 20px;
+
 }
 
-#tillbaka a {
-    justify-content:center;
+a:hover {
+    background-color:lightgray;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;    
+    flex-direction: column;
+    text-align: start;
+    padding: 0;
+    margin: 0;
+    
 }
