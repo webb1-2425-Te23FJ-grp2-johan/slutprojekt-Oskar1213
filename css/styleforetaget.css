@@ -1,0 +1,13 @@
+body {
+    background-color:blanchedalmond
+}
+
+#tillbaka {
+    display:flex;
+    width:100px;
+    height:30px;
+}
+
+#tillbaka a {
+    justify-content:center;
+}

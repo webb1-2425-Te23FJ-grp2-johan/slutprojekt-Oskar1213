@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: blanchedalmond;
 }
 
 nav ul li a {
@@ -8,7 +9,11 @@ nav ul li a {
     padding: 50px 10px;
     width: 100px;
     background-color:aquamarine;
-    justify-content: ;
+    border-color: black;
+}
+
+#foretaget {
+    border-radius: 0px 0px 20px;
 }
 
 ul {
