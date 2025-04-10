@@ -1,49 +1,49 @@
 body {
-    padding: 0;
-    margin: 0;
-    background-color: white;
-    height: 3000px;
-}
-
-.heading {
-    background-color:darkolivegreen;
-    height: 100px;
-    width:max-content;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  height: 3000px;
 }
 
 nav ul li a {
-    display: flex;      
-    padding: 20px 50px;
-    width: 1200px;
-    background-color:darkgreen;
-    text-decoration: none;
-    flex-direction: row-reverse;  
+  display: block;
+  padding: 50px 50px;
+  width: 100px;
+  height:100px;
+  background-color: darkgreen;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
 }
 
 a:hover {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 ul {
-    display: flex;
-    list-style-type: none;    
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logotyp {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .textruta {
-    display:flex;
-    width: 200px;
-    height: 200px;
-    border-color: black;
-    flex-direction: column-reverse;
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-color: black;
+  flex-direction: column-reverse;
 }
-
+.bilder {
+  width:50px;
+  height:50px
+  
+}
