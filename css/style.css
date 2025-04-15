@@ -9,25 +9,23 @@ nav ul li a {
   display: block;
   padding: 50px 50px;
   width: 100px;
-  height:100px;
-  background-color: darkgreen;
+  height: 20px;
+  background-color: white;
   text-decoration: none;
   flex-direction: column;
-  justify-content: center;
 }
 
 a:hover {
   background-color: lightgray;
+
 }
 
 ul {
   display: flex;
   list-style-type: none;
-  text-align: center;
   padding: 0;
   margin: 0;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
 }
 
 .logotyp {
@@ -37,10 +35,11 @@ ul {
 
 .textruta {
   display: flex;
-  width: 200px;
-  height: 200px;
-  border-color: black;
-  flex-direction: column-reverse;
+  width: 300px;
+  height: 100px;
+  border-color: white;
+  justify-content: center;
+  
 }
 .bilder {
   width:50px;
