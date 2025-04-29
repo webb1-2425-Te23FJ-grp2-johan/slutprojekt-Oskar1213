@@ -1,31 +1,28 @@
-
 body {
-    background-color: darkslategrey;
-    padding:0;
-    margin:0;
+  background-color: darkslategrey;
+  padding: 0;
+  margin: 0;
 }
 
-nav ul li a {    
-    display: flex;
-    padding: 50px 10px;
-    width: 100px;
-    background-color:darkgray;
-    border-color: black;
-    text-decoration: none;
-    border-radius: 0px 0px 20px;
-
+nav ul li a {
+  display: flex;
+  padding: 50px 10px;
+  width: 100px;
+  background-color: darkgray;
+  border-color: black;
+  text-decoration: none;
+  border-radius: 0px 0px 20px;
 }
 
 a:hover {
-    background-color:lightgray;
+  background-color: lightgray;
 }
 
 ul {
-    display: flex;
-    list-style-type: none;    
-    flex-direction: column;
-    text-align: start;
-    padding: 0;
-    margin: 0;
-    
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  text-align: start;
+  padding: 0;
+  margin: 0;
 }
