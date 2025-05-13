@@ -1,28 +1,31 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: white;
-  height: 3000px;
+  background: url("../img/skog1.webp");
+  /* height: 3000px; */
+
 }
+
 
 nav ul li a {
   display: block;
   padding: 50px 50px;
-  width: 90px;
+  width: 110px;
   height: 5px;
   margin-top: 50px;
-
   background-color: white;
   text-decoration: none;
-  flex-direction: column;
-  justify-content: flex-end;
+  color: black;
+  font-size: large;
   text-align: center;
+  
 }
 
 nav ul li p {
   display: block;
   text-align: center;
-  margin-left: 300px;
+  margin-left: 20px;
+  margin-top: -50px;
   font-size: 50px;
 }
 
@@ -34,7 +37,7 @@ nav ul img {
 }
 
 a:hover {
-  text-decoration: underline;
+  font-size: larger;
 }
 
 ul {
