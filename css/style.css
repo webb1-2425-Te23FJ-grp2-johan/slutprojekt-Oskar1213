@@ -1,8 +1,8 @@
 body {
   padding: 0;
   margin: 0;
-  background: url("../img/skog1.webp");
-  /* height: 3000px; */
+  background-color: white;
+  height: 3000px; 
 
 }
 
@@ -68,3 +68,5 @@ ul {
   width: 50px;
   height: 50px;
 }
+
+
