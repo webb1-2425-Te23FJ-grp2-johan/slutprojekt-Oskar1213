@@ -1,5 +1,5 @@
 body {
-  background-color: darkslategrey;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -8,14 +8,17 @@ nav ul li a {
   display: block;
   padding: 50px 10px;
   width: 100px;
-  background-color: darkgray;
-  border-color: black;
+  margin-left: 66px;
+  margin-top: 5px;
+  font-size: larger;
   text-decoration: none;
+  color: black;
   border-radius: 0px 0px 20px;
 }
 
 a:hover {
-  background-color: lightgray;
+  font-size: x-large;
+  width: 150px;
 }
 
 ul {
@@ -25,4 +28,12 @@ ul {
   text-align: start;
   padding: 0;
   margin: 0;
+}
+
+.kontaktinfo {
+
+}
+
+.info {
+  
 }
