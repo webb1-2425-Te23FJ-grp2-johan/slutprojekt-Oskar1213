@@ -1,21 +1,29 @@
 body {
-  background-color: darkslategrey;
-  padding: 0;
-  margin: 0;
+  background-color: white;
+}
+
+.container {
+  border: 1px solid;
+  height: 800px;
+  width: 1000px;
+  margin-left: 450px;
 }
 
 nav ul li a {
-  display: flex;
-  padding: 50px 10px;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
   width: 100px;
-  background-color: darkgray;
-  border-color: black;
+  margin-left: 66px;
+  margin-top: 50px;
+  font-size: larger;
   text-decoration: none;
-  border-radius: 0px 0px 20px;
+  color: black;
 }
 
 a:hover {
-  background-color: lightgray;
+  background-color: forestgreen;
+  color: white;
 }
 
 ul {
@@ -23,6 +31,25 @@ ul {
   list-style-type: none;
   flex-direction: column;
   text-align: start;
-  padding: 0;
-  margin: 0;
 }
+
+.info h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.info p {
+  display: flex;
+  justify-content: center;
+
+}
+
+.bild {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+
+
